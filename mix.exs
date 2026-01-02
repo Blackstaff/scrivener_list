@@ -28,6 +28,7 @@ defmodule Scrivener.List.Mixfile do
 
   defp deps() do
     [
+      {:scrivener, "~> 2.7"},
       {:scrivener_ecto, "~> 3.0 or ~> 2.7", optional: true},
 
       # dev/test
